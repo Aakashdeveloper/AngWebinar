@@ -1,0 +1,51 @@
+//SetUp Angular Application///
+**NodeJs Must be installed (https://nodejs.org/en/)
+
+Npm => Node Package Manger
+
+#Win
+>  Run Cmd as Admin
+>  npm i -g @angular/cli
+>  Using CMD navigate to the folder where you want to generate Application
+>  ng new <application name>
+>  cd <application name>
+>  npm start
+>  localhost:4200
+
+
+#Mac
+>  Open Terminal
+>  sudo npm i -g @angular/cli
+>  Using terminal navigate to the folder where you want to generate Application
+>  ng new <application name>
+>  cd <application name>
+>  npm start
+>  localhost:4200
+
+
+//////////Building Block/////////
+
+Module => All declartion
+Component => Each Page Refer as one Component
+Pipe => Run time data manupulation
+Services => All external Interctaion 
+Routing  => All Navigation
+Directive => Small functionality or portion 
+
+
+//////////Flow of Application/////////
+=> index.html
+=> Angular.json => main.ts => app.module.ts => app.Component.html
+
+//Binding
+> One Way Binding
+    >data
+    >event
+    >property
+> Two Way Binding
+
+
+>>Directive
+*ngIf
+*ngFor
+*ngClass
