@@ -49,3 +49,4 @@ Directive => Small functionality or portion
 *ngIf
 *ngFor
 *ngClass
+*ngstyle
